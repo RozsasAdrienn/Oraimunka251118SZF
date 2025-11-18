@@ -152,3 +152,19 @@ footer{
 #felsorol li{
     list-style-position: inside;
 }
+table tr:nth-child(even){
+    background-color: grey;
+}
+table, tr, td{
+    border: 1px grey solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table *{
+    font-size: 120%;
+}
+
+table{
+    margin: 10px;
+}
